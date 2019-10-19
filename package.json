@@ -1,7 +1,12 @@
 {
+    "publisher": "sigma",
     "name": "sigmapack",
     "displayName": "SigmaPack",
     "description": "Sigma personal extension pack",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sigma/sigmapack"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.39.0"
@@ -9,8 +14,8 @@
     "categories": [
         "Extension Packs"
     ],
-    "extensionPack": [ 
-        "bbenoist.Nix", 
+    "extensionPack": [
+        "bbenoist.Nix",
         "CoenraadS.bracket-pair-colorizer",
         "davidanson.vscode-markdownlint",
         "donjayamanne.githistory",
