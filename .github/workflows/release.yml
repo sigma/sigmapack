@@ -1,0 +1,25 @@
+name: release
+on: [tag]
+jobs:
+  run:
+    name: Run
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        node: ['10.x']
+        operating-system: [ubuntu-latest]
+    steps:
+    - uses: actions/checkout@master
+    
+    - name: Set Node.js ${{ matrix.node }}
+      uses: actions/setup-node@master
+      with:
+        node-version: ${{ matrix.node }}
+
+    - name: npm install
+      run: npm install
+
+    - name: vcse publish
+      uses: sigma/vsce-action@master
+      with:
+        args: publish -p ${{ secrets.VSCE_TOKEN }}
