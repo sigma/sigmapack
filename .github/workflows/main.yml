@@ -1,0 +1,20 @@
+name: main
+on: [push,pull_request]
+jobs:
+  run:
+    name: Run
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        node: [ '10.x', '8.x' ]
+        operating-system: [ubuntu-latest]
+    steps:
+    - uses: actions/checkout@master
+    
+    - name: Set Node.js ${{ matrix.node }}
+      uses: actions/setup-node@master
+      with:
+        version: ${{ matrix.node }}
+
+    - name: npm install
+      run: npm install

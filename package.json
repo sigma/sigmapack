@@ -3,6 +3,7 @@
     "name": "sigmapack",
     "displayName": "SigmaPack",
     "description": "Sigma personal extension pack",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/sigma/sigmapack"
