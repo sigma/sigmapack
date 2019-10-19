@@ -1,0 +1,29 @@
+{
+    "name": "sigmapack",
+    "displayName": "SigmaPack",
+    "description": "Sigma personal extension pack",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "bbenoist.Nix", 
+        "CoenraadS.bracket-pair-colorizer",
+        "davidanson.vscode-markdownlint",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "ms-python.python",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-vscode.Go",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "Shan.code-settings-sync",
+        "visualstudioexptteam.vscodeintellicode",
+        "vscode-icons-team.vscode-icons",
+        "zhuangtongfa.Material-theme"
+    ]
+}
