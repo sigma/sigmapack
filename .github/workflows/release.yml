@@ -1,5 +1,10 @@
 name: release
-on: [tag]
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - v*
 jobs:
   run:
     name: Run
