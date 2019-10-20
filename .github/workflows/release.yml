@@ -27,4 +27,6 @@ jobs:
     - name: vcse publish
       uses: sigma/vsce-action@master
       with:
-        args: publish -p ${{ secrets.VSCE_TOKEN }}
+        args: publish
+      env:
+        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
