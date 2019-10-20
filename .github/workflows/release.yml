@@ -23,8 +23,8 @@ jobs:
       run: npm install
 
     - name: Vscode release plugin
-      uses: JCofman/vscodeaction@master
+      uses: sigma/vsce-publish-action@master
       env:
-        PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
+        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
       with:
-        args: publish -p $PUBLISHER_TOKEN
+        args: publish -p $VSCE_TOKEN
