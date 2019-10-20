@@ -23,6 +23,6 @@ jobs:
       run: npm install
 
     - name: Vscode release plugin
-      uses: sigma/vsce-publish-action@master
+      uses: sigma/vsce-publish-action@v0.0.2
       with:
         vsce_token: ${{ secrets.VSCE_TOKEN }}
