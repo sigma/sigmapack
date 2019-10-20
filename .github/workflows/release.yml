@@ -24,7 +24,5 @@ jobs:
 
     - name: Vscode release plugin
       uses: sigma/vsce-publish-action@master
-      env:
-        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
       with:
-        args: publish -p $VSCE_TOKEN
+        vsce_token: ${{ secrets.VSCE_TOKEN }}
