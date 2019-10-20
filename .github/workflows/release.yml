@@ -1,8 +1,6 @@
 name: release
 on:
   push:
-    branches:
-      - master
     tags:
       - v*
 jobs:
@@ -24,9 +22,9 @@ jobs:
     - name: npm install
       run: npm install
 
-    - name: vcse publish
-      uses: sigma/vsce-action@master
-      with:
-        args: publish
+    - name: Vscode release plugin
+      uses: JCofman/vscodeaction@master
       env:
-        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+        PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
+      with:
+        args: publish -p $PUBLISHER_TOKEN
