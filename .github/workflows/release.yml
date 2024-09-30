@@ -9,13 +9,13 @@ jobs:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
-        node: ['10.x']
+        node: ['18']
         operating-system: [ubuntu-latest]
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v4
     
     - name: Set Node.js ${{ matrix.node }}
-      uses: actions/setup-node@master
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node }}
 
@@ -23,6 +23,8 @@ jobs:
       run: npm install
 
     - name: Vscode release plugin
-      uses: sigma/vsce-publish-action@v0.0.2
+      uses: lannonbr/vsce-action@4.0.0
       with:
-        vsce_token: ${{ secrets.VSCE_TOKEN }}
+        args: "publish -p $VSCE_TOKEN"
+      env:
+        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
