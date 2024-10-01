@@ -5,7 +5,7 @@ cat <<EOF > README.md
 
 # README
 
-This contains @sigma's personal extensions pack v0.2.0
+This contains @sigma's personal extensions pack v0.2.1
 
 EOF
 jq -r '.extensionPack[] | "* [\(.)](https://marketplace.visualstudio.com/items?itemName=\(.))"' package.json >> README.md
