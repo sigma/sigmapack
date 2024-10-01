@@ -2,7 +2,7 @@
 
 # README
 
-This contains @sigma's personal extensions pack v0.3.0
+This contains @sigma's personal extensions pack v0.3.1
 
 * [fill-labs.dependi](https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi)
 * [rust-lang.rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
