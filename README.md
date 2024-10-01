@@ -38,7 +38,7 @@ This contains @sigma's personal extensions pack v0.3.0
 * [bazelbuild.vscode-bazel](https://marketplace.visualstudio.com/items?itemName=bazelbuild.vscode-bazel)
 * [ms-vscode.vscode-speech](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-speech)
 * [redhat.vscode-yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
-* [bungcip.better-toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
+* [tamasfe.even-better-toml](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 * [shd101wyy.markdown-preview-enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 * [vsls-contrib.gistfs](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs)
 * [kahole.magit](https://marketplace.visualstudio.com/items?itemName=kahole.magit)
