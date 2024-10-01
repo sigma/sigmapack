@@ -45,6 +45,9 @@
         "jnoortheen.nix-ide",
         "mkhl.direnv",
         "bazelbuild.vscode-bazel",
-        "ms-vscode.vscode-speech"
+        "ms-vscode.vscode-speech",
+        "redhat.vscode-yaml",
+        "bungcip.better-toml",
+        "shd101wyy.markdown-preview-enhanced"
     ]
 }
