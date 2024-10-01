@@ -41,3 +41,5 @@ This contains @sigma's personal extensions pack v0.2.1
 * [bungcip.better-toml](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
 * [shd101wyy.markdown-preview-enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 * [vsls-contrib.gistfs](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs)
+* [kahole.magit](https://marketplace.visualstudio.com/items?itemName=kahole.magit)
+* [tuttieee.emacs-mcx](https://marketplace.visualstudio.com/items?itemName=tuttieee.emacs-mcx)
