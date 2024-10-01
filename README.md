@@ -1,8 +1,8 @@
-![Github Actions](https://raster.shields.io/endpoint.png?url=https%3A%2F%2Factions-badge.atrox.dev%2Fsigma%2Fsigmapack%2Fbadge&style=flat)
+![Github Actions](https://github.com/sigma/sigmapack/actions/workflows/release.yml/badge.svg)
 
 # README
 
-This contains @sigma's personal favorite extensions:
+This contains @sigma's personal extensions pack v0.2.0
 
 * [fill-labs.dependi](https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi)
 * [rust-lang.rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
