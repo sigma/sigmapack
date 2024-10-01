@@ -7,6 +7,7 @@ This contains @sigma's personal favorite extensions:
 * [fill-labs.dependi](https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi)
 * [rust-lang.rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 * [dustypomerleau.rust-syntax](https://marketplace.visualstudio.com/items?itemName=dustypomerleau.rust-syntax)
+* [ms-kubernetes-tools.vscode-kubernetes-tools](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
 * [ms-toolsai.jupyter-keymap](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-keymap)
 * [ms-toolsai.jupyter-renderers](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers)
 * [ms-toolsai.vscode-jupyter-cell-tags](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-jupyter-cell-tags)
