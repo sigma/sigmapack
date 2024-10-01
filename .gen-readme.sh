@@ -9,3 +9,6 @@ This contains @sigma's personal favorite extensions:
 
 EOF
 jq -r '.extensionPack[] | "* [\(.)](https://marketplace.visualstudio.com/items?itemName=\(.))"' package.json >> README.md
+
+# Make sure README.md is added to git
+git add README.md
