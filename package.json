@@ -35,7 +35,10 @@
         "ms-vscode.remote-repositories",
         "ms-vscode.remote-server",
         "github.codespaces",
+        "github.copilot",
+        "github.copilot-chat",
         "github.remotehub",
+        "github.vscode-github-actions",
         "github.vscode-pull-request-github",
         "zhuangtongfa.material-theme",
         "vscode-icons-team.vscode-icons",
@@ -48,6 +51,7 @@
         "ms-vscode.vscode-speech",
         "redhat.vscode-yaml",
         "bungcip.better-toml",
-        "shd101wyy.markdown-preview-enhanced"
+        "shd101wyy.markdown-preview-enhanced",
+        "vsls-contrib.gistfs"
     ]
 }
